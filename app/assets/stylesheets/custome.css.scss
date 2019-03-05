@@ -28,6 +28,15 @@ $navbar-default-bg: #B0C4DE;
   font-weight :bold;
 }
 
+.article-title{
+  font-weight:bold;
+  font-size: 1.5em;
+}
+.article-body{
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 .article-actions{
   border-top: 1px solid #eaeaea;
   padding-top: 5px;
