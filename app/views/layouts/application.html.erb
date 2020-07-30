@@ -2,12 +2,22 @@
 <html>
   <head>
     <title>AlphaBlog</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174036021-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+      gtag('config', 'UA-174036021-1');
+    </script>
     <script data-ad-client="ca-pub-7252354354222007" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <meta name="google-site-verification" content="E1RU9HlRBPpfQhm774jCf_8SbZNuM20S1YeBtiVK3b8" />
+
   </head>
 
   <body>
